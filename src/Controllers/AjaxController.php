@@ -12,4 +12,9 @@ class AjaxController extends Controller
 	return $this->template;
     }
 
+    public function getTemplate() : string
+    {
+	return $this->template;
+    }
+
 }
