@@ -17,4 +17,9 @@ class AjaxController extends Controller
 	return $this->template;
     }
 
+    public function setTemplate(string $template)
+    {
+	$this->template = $template;
+    }
+
 }
